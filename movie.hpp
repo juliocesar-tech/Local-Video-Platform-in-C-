@@ -11,7 +11,9 @@ class Movie{
         int ano;
         int nota;
     public:
-        Movie(const string& titulo, const string& genero, int ano, int nota);
+        Movie(const string& titulo, const string& genero, int ano);
+        void avaliar(int nota);
+        void reproduzir();
 };
 
 #endif
